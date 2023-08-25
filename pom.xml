@@ -8,12 +8,36 @@
     <packaging>jar</packaging>
 
     <name>MultiErrorCheck</name>
-    <url>http://maven.apache.org</url>
+    <url>https://github.com/Lunkes-Apps/MultiErrorCheck</url>
+    <description>Library for MultiErrors Check</description>
+
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>http://www.opensource.org/licenses/mit-license.php</url>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <name>Alexandre Lunkes</name>
+            <email>lunkes.alexandre@gmail.com</email>
+            <organization>com.lunkes-alexandre-qa</organization>
+            <organizationUrl>http://github.com/Lunkes-Apps</organizationUrl>
+        </developer>
+    </developers>
+
+    <scm>
+        <connection>scm:git:git://github.com/Lunkes-Apps/MultiErrorCheck.git</connection>
+        <developerConnection>scm:git:ssh://github.com:Lunkes-Apps/MultiErrorCheck.git</developerConnection>
+        <url>http://github.com/Lunkes-Apps/MultiErrorCheck</url>
+    </scm>
 
     <dependencies>
         <dependency>
