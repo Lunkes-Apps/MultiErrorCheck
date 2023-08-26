@@ -3,6 +3,7 @@ package io.github.lunkesapps;
 import io.github.lunkesapps.MultiErrorCheck;
 import org.junit.Test;
 
+import static org.hamcrest.collection.IsArrayContaining.hasItemInArray;
 import static org.hamcrest.core.IsEqual.equalTo;
 
 public class MultiErrorCheckTest {
@@ -18,6 +19,14 @@ public class MultiErrorCheckTest {
     public void verifyIfItRunsWithString()throws Throwable{
         MultiErrorCheck multiErrorCheck = new MultiErrorCheck();
         multiErrorCheck.addCheck("a", equalTo("a"));
+        multiErrorCheck.validateAllErrors();
+    }
+
+    @Test
+    public void verifyIfItRunsWithList()throws Throwable{
+        MultiErrorCheck multiErrorCheck = new MultiErrorCheck();
+        String[] list = {"a", "b", "c"};
+        multiErrorCheck.addCheck(list, hasItemInArray("a"));
         multiErrorCheck.validateAllErrors();
     }
 
