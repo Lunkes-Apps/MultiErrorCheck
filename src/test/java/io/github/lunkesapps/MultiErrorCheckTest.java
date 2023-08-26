@@ -1,5 +1,6 @@
-package com.lunkes.teste.novamente.qa.multierrorcheck;
+package io.github.lunkesapps;
 
+import io.github.lunkesapps.MultiErrorCheck;
 import org.junit.Test;
 
 import static org.hamcrest.core.IsEqual.equalTo;

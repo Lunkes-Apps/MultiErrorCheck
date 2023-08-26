@@ -1,4 +1,4 @@
-package com.lunkes.teste.novamente.qa.multierrorcheck;
+package io.github.lunkesapps;
 
 import org.hamcrest.Matcher;
 import org.junit.runners.model.MultipleFailureException;
