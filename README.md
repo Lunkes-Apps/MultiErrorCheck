@@ -1,3 +1,5 @@
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/io.github.lunkes-apps/MultiErrorCheck/badge.svg)](https://maven-badges.herokuapp.com/maven-central/io.github.lunkes-apps/MultiErrorCheck)
+
 # MultiErrorCheck
 
 Ferramenta para testes automatizados, cuja a função é de testar diferentes asserções em uma mesma função de teste sem que a exeção de uma impessa a execução das demais.
