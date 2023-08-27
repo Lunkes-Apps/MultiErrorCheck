@@ -2,7 +2,7 @@
 
 # MultiErrorCheck
 
-Ferramenta para testes automatizados, cuja a função é de testar diferentes asserções em uma mesma função de teste sem que a exeção de uma impessa a execução das demais.
+Ferramenta para testes automatizados, cuja função é testar diferentes asserções em uma mesma função de teste sem que a exceção de uma impeça a execução das demais.
 
 ## Instalação
 
